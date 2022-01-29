@@ -5,10 +5,15 @@
   "repository": "git@github.com:WassimKallel/ncsc-devsecops-2022.git",
   "author": "WassimKallel <wassimkallel@think-it.io>",
   "license": "MIT",
-  "scripts":{
-    "start": "node index.js"
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
   },
   "dependencies": {
     "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "supertest": "^6.2.2"
   }
 }
