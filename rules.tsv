@@ -1,0 +1,3 @@
+0	IGNORE	(Directory Browsing - Active/release)
+40012	WARN	(Cross Site Scripting (Reflected) - Active/release)
+40014	WARN	(Cross Site Scripting (Persistent) - Active/release)
