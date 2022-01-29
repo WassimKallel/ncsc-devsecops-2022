@@ -1,0 +1,14 @@
+{
+  "name": "ncsc-devsecops-2022",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:WassimKallel/ncsc-devsecops-2022.git",
+  "author": "WassimKallel <wassimkallel@think-it.io>",
+  "license": "MIT",
+  "scripts":{
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
