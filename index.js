@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const port = process.env.PORT || 3000;
+const sanitizer = require("sanitizer")
 
 var entries = [];
 app.get("/", (request, response) => {
@@ -28,8 +29,7 @@ app.get("/store", (request, response) => {
   let body = request.query;
   const value = body.value;
   console.log("storing");
-  // entries.push(sanitizer.escape(value));
-  entries.push(value);
+  entries.push(sanitizer.escape(value));
   response.redirect("/");
 });
 
