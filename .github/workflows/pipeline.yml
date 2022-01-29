@@ -33,6 +33,7 @@ jobs:
           heroku_app_name: ncsc-2022 #Must be unique in Heroku
           heroku_email: wassim.kallel@hotmail.com
   zap_scan:
+    needs: Deploy
     runs-on: ubuntu-latest
     name: Scan the webapplication
     steps:
