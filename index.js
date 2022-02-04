@@ -14,7 +14,7 @@ app.get("/", (request, response) => {
                 <input type="submit" name="submit"></input>
             </form>
             <ul>
-                ${entries.map((value) => "<li>" + value + "</li>")}
+                ${entries.map((value) => "<li>" + value + "</li>").join('')}
             </ul>
         </body>
     </html>
